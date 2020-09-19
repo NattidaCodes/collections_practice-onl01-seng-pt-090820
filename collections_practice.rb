@@ -36,5 +36,4 @@ end
 
 def add_s(array)
   array.each_with_index.collect {|w| w + "s"}
-  array(-1)
 end
